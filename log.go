@@ -20,8 +20,17 @@ const resetColor = string("\033[0m")
 const greenColor = string("\033[32m")
 const redColor = string("\033[31m")
 const yellowColor = string("\033[33m")
+const blueColor = string("\033[34m")
 
-func I(text string) {
+func I(text string){
+	time := getTime()
+	line := time + " ★ " + text
+
+	writeLog(time, line)
+	fmt.Println(blueColor, line, resetColor)
+}
+
+func S(text string) {
 	time := getTime()
 	line := time + " • " + text
 
