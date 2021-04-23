@@ -56,6 +56,14 @@ func W(text string) {
 	fmt.Println(yellowColor, line, resetColor)
 }
 
+func Em(method string, text string) {
+	time := getTime()
+	line := time + " × ("+method+")" + text
+
+	writeLog(time, line)
+	fmt.Println(redColor, line, resetColor)
+}
+
 func E(text string) {
 	time := getTime()
 	line := time + " × " + text
