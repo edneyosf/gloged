@@ -58,7 +58,7 @@ func W(text string) {
 
 func Em(method string, text string) {
 	time := getTime()
-	line := time + " × ("+method+")" + text
+	line := time + " × ("+method+") " + text
 
 	writeLog(time, line)
 	fmt.Println(redColor, line, resetColor)
