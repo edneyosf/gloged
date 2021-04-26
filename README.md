@@ -16,6 +16,10 @@ How do I use Gloged?
 
 ```
 
-log.I("My log")
+log.I("My info log")
+log.S("My successful log")
+log.W("My warning log")
+log.E("My error log")
+log.D("method", "variable", "My debug log")
 
 ```
