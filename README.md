@@ -9,3 +9,13 @@ A simple logger for GoLang
 ```
 go get github.com/edneyosf/gloged
 ```
+
+---
+
+How do I use Gloged?
+
+```
+
+log.I("My log")
+
+```
