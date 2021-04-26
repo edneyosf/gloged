@@ -20,6 +20,6 @@ log.I("My info log")
 log.S("My successful log")
 log.W("My warning log")
 log.E("My error log")
-log.D("function name", "variable", "My debug log")
+log.D("function name", "variable name", "My debug log")
 
 ```
