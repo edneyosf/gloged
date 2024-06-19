@@ -2,6 +2,8 @@
 
 A simple logger for GoLang
 
+[![Version](https://img.shields.io/badge/version-v1.0.2-green)]()
+
 ---
 
 ### Download
